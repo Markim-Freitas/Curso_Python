@@ -74,8 +74,10 @@ Objetos em Python
  type(MeuObjeto)
  
  class ‘int’</b>
+
+ <footer>* Usou-se o comando type( ) para saber qual o tipo da "Variavel/Objeto".</footer></p> 
  
-No Exemplo, podem ser vistos os três aspectos mencionados: o
+<p>No Exemplo, podem ser vistos os três aspectos mencionados: o
 identificador é MeuObjeto; o tipo é “int”, que representa números inteiros; e
 o conteúdo é o valor 10.
 
@@ -84,11 +86,11 @@ existem <b>variáveis</b>, como estas costumam ser conhecidas em outras
 linguagens. O que existe, de fato, são os <b>objetos</b>. Pode parecer uma simples
 questão de nomenclatura, mas não se trata disso, uma vez que cada objeto,
 além de ser utilizado para armazenar seu conteúdo, apresenta um
-comportamento próprio associado à classe a que pertence.
+comportamento próprio associado à classe a que pertence.</p>
     
 ### Tipos simples de dados
 
-Em Python, estão disponíveis
+<p>Em Python, estão disponíveis
 os tipos simples relacionados a seguir.
 
 <b>• Número inteiro (int)</b>: capazes de armazenar números inteiros
@@ -111,13 +113,13 @@ aritméticas envolvendo números complexos. Essa característica é
 muito útil em programas voltados à solução de problemas de física e
 engenharia, nos quais há uma forte presença de números complexos,
 por exemplo, estudo de vibrações, circuitos elétricos e sistemas
-dinâmicos.
+dinâmicos.</p>
 
 
 
 ### Tipos estruturados de dados
 
-Em contraposição aos tipos simples, os tipos estruturados são compostos,
+<p>Em contraposição aos tipos simples, os tipos estruturados são compostos,
 ou seja, seu conteúdo é constituído por outros elementos. Assim sendo, tais
 tipos representam agregados de objetos que podem ser acessados e
 manipulados em conjunto ou isoladamente.
@@ -165,4 +167,4 @@ reconstruído. Os tipos numéricos (int, float, complex), os strings, tuplas e
 frozenset são imutáveis, de modo que, quando um novo conteúdo for
 atribuído ao objeto, sua instância anterior é removida, e uma nova instância,
 criada. Os tipos lista, dicionário e set são mutáveis, de modo que podem ter
-seu conteúdo alterado, sem que sua instância seja recriada.
+seu conteúdo alterado, sem que sua instância seja recriada.</p>
